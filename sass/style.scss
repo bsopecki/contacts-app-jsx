@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(132, 182, 176);
+}
+
+.app {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contactForm {
+    width: 300px;
+    display: block;
+    margin: 50px auto;
+}
+
+.contactForm input {
+    display: block;
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid blue;
+    background-color: lightblue;
+    color: darkorange;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.contactForm input::placeholder {
+    color: blue;
+    opacity: 0.6;
+}
+
+.contactForm button {
+    margin: 25px 75px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: darkgray;
+    text-align: center;
+    border-style: none;
+    font-weight: 600;
+    color: blue;
+}
+
+.contactsList {
+    width: 500px;
+    margin: 40px auto;
+    padding: 0;
+}
+
+.contactItem {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    border: 2px solid lightblue;
+    margin-bottom: 3px;
+}
+
+.contactImage {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.contactLabel {
+    display: block;
+    width: 250px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: yellow;
+}
+
+.contactEmail {
+    margin-left: 10px;
+    width: 100px;
+    height: 20px;
+}
